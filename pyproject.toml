@@ -11,6 +11,7 @@ repository = "https://github.com/dalpozz/aigiftcard"
 python = ">=3.8,<3.9.7 || >3.9.7,<3.11"
 requests = "^2.31.0"
 stability-sdk = "^0.8.4"
+streamlit-image-comparison = "^0.0.4"
 
 [build-system]
 requires = ["poetry-core"]
