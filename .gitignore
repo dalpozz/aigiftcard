@@ -8,7 +8,7 @@ __pycache__/
 
 # mac
 .DS_Store
-
+.streamlit/secrets.toml
 
 # Distribution / packaging
 .Python
