@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "aigiftcard"
+version = "0.0.1"
+description = "Gift Card"
+authors = ["Andrea Dal Pozollo <dalpozz@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/dalpozz/aigiftcard"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.style]
+optional = true
+
+[tool.poetry.group.models]
+optional = true
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+numpy = "^1.23.3"
+pandas = "^1.4.4"
+streamlit = "^1.28.0"
+requests = "^2.31.0"
+stability-sdk = "^0.8.4"
+streamlit-image-comparison = "^0.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
